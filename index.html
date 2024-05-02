@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Paint da Henrillia</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <script src='main.js'></script>
+</head>
+<body>
+  <h1 style="text-align: center;">Henrillia Paint 	<span id="emoji">&#128512;</span></h1>
+  <canvas id="myCanvas" width= "900" height="500"></canvas>
+  <div class="toolbar" id="Menu">
+    <div style="display: inline-block; margin-left: 10px; border-style: none;">
+      <input type="color" id="head" name="head" value="#ffa500" onchange="colorTwo()"/>
+    </div>
+    <button cor="#ff0d25" class="color ve " onclick="color(this,'cor')"> </button>
+    <button cor="#006eff" class="color a " onclick="color(this, 'cor')"> </button>
+    <button cor="#000000" class="color p" onclick="color(this, 'cor')"> </button>
+    <button cor="#adff2f" class="color v" onclick="color(this, 'cor')"> </button>
+    <button cor="#902be2" class="color r" onclick="color(this, 'cor')"> </button>
+    
+    <button class="Standart" id="pencilTool">Lápis</button>
+    <button class="Standart" id="eraserTool">Borracha</button>
+    <button class="Standart" id="clearButton">Limpar tela</button>
+    <input type="range" id="brushSize" min="1" max="30" value="1" id="brushSize"><span class="Standarti">Tamanho do pincel</span>
+    <button class="Standart" id="pencilTool" id="s" onclick="saveCanvasAsImage()">Salvar</button>
+    
+  </div>
+
+  <script src='script.js'></script>
+</body>
+</html>

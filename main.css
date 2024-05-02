@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+
+}
+
+#Menu{
+  display: block;
+  width: 100%;
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+  text-align: center;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 30px;
+}
+
+.Standart{
+  color:darkgrey;
+  border-style: none;
+  background-color: transparent;
+  font-size: 22px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.Standarti{
+  color:darkgrey;
+  border-style: none;
+  background-color: transparent;
+  font-size: 22px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+canvas{
+  background-color: white;
+  background: white;
+  border-style: solid;
+  border-color: rgb(252, 248, 244);
+  border-width: 10px;
+}
+
+
+.Standart:hover{
+  color: #ffa500;
+}
+
+input[type="range"] {
+
+  /* removing default appearance */
+  -webkit-appearance: none;
+  appearance: none;
+  /* creating a custom design */
+  background: orange;
+  border-radius: 16px;
+  cursor: pointer;
+  outline: none;
+  display: inline-block;
+}
+
+#myCanvas{
+  border-radius: 10px;
+  display: block;
+  text-align: center;
+  margin: 10px auto;
+  background-color: white;
+  background: white;
+  
+}
+
+.color{
+  padding: 10px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: darkgray;
+  border-width: 3px;
+}
+
+.v{
+  background-color: #adff2f;
+}
+
+.ve{
+  background-color: #ff0d25;
+}
+
+.p{
+  background-color: #000000;
+}
+
+.a{
+  background-color: #006eff;
+}
+
+.r{
+  background-color: #902be2;
+}
+
+
+.color:active{
+  border-color:orange;
+}
+#s{
+  
+}
+
+#head{
+  border-radius: 10px;
+  border-style: none;
+  
+
+}
